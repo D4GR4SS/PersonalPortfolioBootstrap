@@ -10,6 +10,10 @@ section {
   color: var(--bs-gray-400);
 }
 
+#logo:hover {
+  color: var(--bs-pink);
+}
+
 .section_title {
   font-family: 'Unbounded', cursive;
   font-weight: 200;
@@ -25,7 +29,7 @@ section {
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-  background-color: var(--bs-dark);
+  background-color: #05131c;
   box-shadow: 0 4px 20px var(--bs-dark);
 }
 
@@ -54,7 +58,8 @@ section {
 
 /* about section image css */
 .imageAboutPage {
-  width: 100%;
+  width: 80%;
+  padding: 1rem;
 }
 
 /* services section css */
@@ -90,10 +95,12 @@ section {
 
 /* footer styling */
 footer {
-  background-color: #808080;
+  background-color: #05131c;
   color: var(--bs-light);
 }
 
 footer a {
+  color: var(--bs-light);
+  font-size: 1.2rem;
   text-decoration: none;
 }
