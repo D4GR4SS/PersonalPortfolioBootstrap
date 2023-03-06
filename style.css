@@ -93,6 +93,10 @@ section {
   cursor: pointer;
 }
 
+/* Contact Form */
+.form-group {
+  margin: 1rem 0;
+}
 /* footer styling */
 footer {
   background-color: #05131c;
